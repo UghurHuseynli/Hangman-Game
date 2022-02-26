@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script&family=Patrick+Hand&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Windwalker</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header-section">
+            <h1 class="header">Hangman</h1>
+            <p class="header-content">2022 style</p>
+        </div>
+        <div class="content-section">
+            <div class="content-div-img" id="content-div-img">
+                <img class="content-img" id="content-img-id" src="./assets/images/cirilla.jpg" alt="">
+            </div>
+            <div class="content-text-parent" id="content-text-parent">
+                <button class="btn-start" id="btn-start">Start</button>
+                <div class="content-text-child child-1" id="cnt-txt-ch1">
+                    <p>Wins: <span id="wins"></span></p>
+                    <p>Who is the character in the picture? :</p>
+                    <div class="input-div" id="input-div-ele">
+                        <form action="" class="inputWord">
+                            <input class="input-ele" type="text" name="" id="input-tag">
+                        </form>
+                        <p id="find-words" class="inputparagraph"></p>
+                    </div>
+                </div>
+                <div class="content-text-child" id="cnt-txt-ch2">
+                    <p>Number of guesses remaining: <span id="predictionChance"></span></p>
+                    <p>The letters have already been guessed: <span id="guessedLetters"></span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./assets/js/app.js"></script>
+</body>
+</html>
