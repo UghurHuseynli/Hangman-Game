@@ -83,7 +83,7 @@ inputSection.addEventListener("keyup", (event) => {
                 win++;
                 winSection.innerText = win;
                 if (win === 15){
-                    img.src = './assets/images/win.webp';
+                    img.src = './assets/images/win.png';
                     setTimeout(() => {
                         let winAudio = new Audio('./assets/sound/levelWin.mp4');
                         winAudio.play();
